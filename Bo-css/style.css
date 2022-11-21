@@ -1,0 +1,357 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    color: #4e4e4e;
+    background-color: #f5f5f5;
+}
+nav
+{
+    z-index: 999999;
+}
+header
+{
+    background-image: url(../image/hero-bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.morgan h1
+{
+    font-weight: 600;
+    font-size: 72px;
+}
+.morgan p
+{
+    font-weight: 400;
+    font-size: 30px;
+}
+.morgan p::after
+{
+    content: '|';
+    animation-name:typing ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+span
+{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.slide
+{
+    padding-top: 10%;
+}
+
+.sk-bar1
+{
+    position: relative;
+}
+.sk-bar1::after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 85%;
+    height: 30%;
+    background-color: #0078ff;
+}
+.sk-bar2
+{
+    position: relative;
+}
+.sk-bar2::after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 75%;
+    height: 30%;
+    background-color: #0078ff;
+}
+.sk-bar3
+{
+    position: relative;
+}
+.sk-bar3::after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 30%;
+    background-color: #0078ff;
+}
+.sk-bar4
+{
+    position: relative;
+}
+.sk-bar4::after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    height: 30%;
+    background-color: #0078ff;
+}
+.about h3
+{
+    position: relative;
+}
+.about h3::after
+{
+    content: '';
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 15%;
+    height: 5%;
+    background-color: #0078ff;
+}
+.services p
+{
+    position: relative;
+}
+.services p::after
+{
+    content: '';
+    position: absolute;
+    bottom: -50%;
+    left: 48%;
+    width: 4%;
+    height: 20%;
+    background-color: #0078ff;
+}
+.ser-box i
+{
+    color: black;
+    border:10px solid #0078ff;    
+    border-radius: 50%;
+    transition: all 1s;
+}
+.ser-box i:hover
+{
+    color: white;
+    border:none;
+    background-color: rgb(0, 120, 255);    
+}
+.counters
+{
+    background-image: url(../image/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.co-box i
+{
+    color: white;
+}
+.overlay
+{
+    background-color: rgba(0, 120, 255, .5);
+    height: 100vh;
+}
+.counters .row
+{
+    padding-top: 10%;
+}
+.counters i
+{
+    border: 10px solid white;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.portfolio p
+{
+    position: relative;
+}
+.portfolio p::after
+{
+    content: '';
+    position: absolute;
+    bottom: -50%;
+    left: 48%;
+    width: 4%;
+    height: 20%;
+    background-color: #0078ff;
+}
+.pic-det i
+{
+    color: #0078ff;
+}
+.l-det h6
+{
+    font-size: 13px;
+    font-weight: 400;
+}
+.l-det span
+{
+    color: #0078ff;
+    font-size: 13px;
+    font-weight: 400;
+}
+.po-box img
+{
+    width: 100%;
+    transition: transform 3s;
+}
+.slider
+{
+    background-image: url(../image/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.box-img
+{
+    overflow: hidden;
+}
+.po-box img:hover
+{
+    transform: scale(1.5,1.5);
+}
+.blog p
+{
+    position: relative;
+}
+.blog p::after
+{
+    content: '';
+    position: absolute;
+    bottom: -50%;
+    left: 48%;
+    width: 4%;
+    height: 20%;
+    background-color: #0078ff;
+}
+.bl-content img
+{
+    position: relative;
+}
+.bl-content
+{
+    border: 1px solid #4e4e4e67;
+}
+.bl-content h5
+{
+    background-color: #0078ff;
+    width: 70px;
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+}
+.free 
+{
+    background-color: #f5f5f5;
+}
+.free img
+{
+    width: 25px;
+    height: 80%;
+}
+.bl-content a
+{
+    color: black;
+    transition: all .5s ease-in-out;
+}
+
+.bl-content h3:hover a 
+{
+    color: #0078ff;
+}
+.contact
+{
+    background-image: url(../image/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.contact h3
+{
+    position: relative;
+}
+.contact h3::after
+{
+    content: '';
+    background-color: #0078ff;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 20%;
+    height: 10%;
+}
+.overlay1
+{
+    background-color: rgba(0, 120, 255, .5);
+    height: 100vh;    
+}
+.btn button
+{
+    border: none;
+    background-color: #0078ff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn button:hover
+{
+    background-color: #0077ffab;
+}
+.contact p
+{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+.contact i{
+    color: #0078ff;
+}
+.social i{
+    border: 6px solid #0078ff;
+    border-radius: 50%;
+
+}
+
+
+
+@keyframes typing
+{
+ 0% {content: '|';}
+ 0.66% {content: 'D|';}  
+ 0.99% {content: 'De|';}  
+ 10.32% {content: 'Dev|';}     
+ 10.65% {content: 'Deve|';}  
+ 10.98% {content: 'Devel|';}  
+ 20.31% {content: 'Develo|';}  
+ 20.64% {content: 'Develop|';}  
+ 20.97% {content: 'Develope|';}
+ 30.3% {content: 'Developer|';} 
+ 30.63% {content: 'Develope|';}  
+ 30.96% {content: 'Develop|';}  
+ 40.29% {content: 'Develo|';}  
+ 40.62% {content: 'Devel|';}  
+ 40.95% {content: 'Deve|';}  
+ 50.28% {content: 'Dev|';}  
+ 50.61% {content: 'De|';}  
+ 50.94% {content: 'D|';}  
+ 60.27% {content: 'De|';}  
+ 60.6% {content: 'Des|';}  
+ 60.93% {content: 'Desi|';}  
+ 70.26% {content: 'Desig|';}  
+ 70.59% {content: 'Design|';}  
+ 70.92% {content: 'Designe|';}  
+ 80.25% {content: 'Designer|';} 
+ 80.58% {content: 'Designe|';}  
+ 80.91% {content: 'Design|';}  
+ 90.24% {content: 'Desig|';}  
+ 90.57% {content: 'Desi|';}  
+ 90.9% {content: 'Des|';}  
+ 100% {content: '|';}     
+}
